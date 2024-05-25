@@ -22,16 +22,16 @@ form.addEventListener("submit", async (e) => {
   alertBorder.classList.add("-left-full");
 
   let bodyFecth = {
-    nameFrom: "Zunna Digital",
-    sendFrom: "zunna.digital47@gmail.com",
-    password: "qjbo vdys vrfk vehp",
+    nameFrom: "Nylaa Store",
+    sendFrom: "nylaa.store10@gmail.com",
+    password: "iduu yjyv cfhk oybp",
     nameTo: nameTo,
     sendTo: sendTo,
     subject: "E-Book",
-    bodyHTML: `<b>Hallo kak ${nameTo} terima kasih sudah order...<br>semoga suka dengan buku nya ^_^ dan rezeki kakak sekeluarga lancar selalu,<br><br>Happy reading</b><br><br>${contain}`,
+    bodyHTML: `<b>Hallo kak ${nameTo}, terima kasih sudah order...<br>semoga suka dengan buku nya &#128521; dan rezeki kakak sekeluarga lancar selalu,<br></b><br><br>${contain}<br><b>Happy reading</b>`,
   };
   let request = await fetch(
-    "https://zunnaserver.vercel.app/email/SendToEmail",
+    "https://nylaa-server.vercel.app/email/SendToEmail",
     {
       method: "POST",
       headers: {

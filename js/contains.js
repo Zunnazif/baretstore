@@ -8,7 +8,7 @@ export default async function contains() {
   submit.innerHTML = "Sedang Mengirim...";
 
   let request = await fetch(
-    "https://zunnaserver.vercel.app/ebook/GetMultipleEBookBySKU",
+    "https://nylaa-server.vercel.app/ebook/GetMultipleEBookBySKU",
     {
       method: "POST",
       headers: {

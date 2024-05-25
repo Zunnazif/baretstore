@@ -5,7 +5,7 @@ let tb = document.getElementById("tb");
 
 async function getBookByName() {
   let request = await fetch(
-    "https://zunnaserver.vercel.app/ebook/GetMultipleEBookByName",
+    "https://nylaa-server.vercel.app/ebook/GetMultipleEBookByName",
     {
       method: "POST",
       headers: {
@@ -43,7 +43,7 @@ async function getBookByName() {
 
 async function getBookBySKU() {
   let request = await fetch(
-    "https://zunnaserver.vercel.app/ebook/GetMultipleEBookBySKU",
+    "https://nylaa-server.vercel.app/ebook/GetMultipleEBookBySKU",
     {
       method: "POST",
       headers: {
