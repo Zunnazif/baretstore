@@ -22,9 +22,9 @@ form.addEventListener("submit", async (e) => {
   alertBorder.classList.add("-left-full");
 
   let bodyFecth = {
-    nameFrom: "Nylaa Store",
-    sendFrom: "nylaa.store10@gmail.com",
-    password: "iduu yjyv cfhk oybp",
+    nameFrom: "Baret Store",
+    sendFrom: "storebaret@gmail.com",
+    password: "rlxp oaut tzvh qwcz",
     nameTo: nameTo,
     sendTo: sendTo,
     subject: "E-Book",
